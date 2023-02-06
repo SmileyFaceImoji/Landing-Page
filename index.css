@@ -1,0 +1,28 @@
+@font-face {
+    font-family: roboto;
+    src: url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+}
+
+
+.hero{
+    display: flex;
+    height:400px;
+    width:auto;
+    background-color: #1f2937;
+}
+
+.header-links{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: green;
+    height: 30px;
+}
+
+.header-link{
+    align-content: space-between;
+}
+
+h4{
+    align-content: flex-start;
+}
